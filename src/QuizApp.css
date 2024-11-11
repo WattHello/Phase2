@@ -1,0 +1,31 @@
+.quiz-app {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .question h2, .result h2 {
+    color: #333;
+  }
+  
+  .question ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .question button, .result button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .question button:hover, .result button:hover {
+    background-color: #45a049;
+  }
